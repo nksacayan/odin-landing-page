@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.header,
+.hero,
+.call-to-action,
+.footer {
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin-right: 128px;
+}
+
+.header h2 {
+    margin-left: 128px;
+    margin-right: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
