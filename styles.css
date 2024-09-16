@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    font-family: Roboto;
+    margin: 0;
 }
 
 .header,
@@ -27,7 +29,7 @@ body {
     text-decoration: none;
     list-style-type: none;
     display: flex;
-    gap: 8px;
+    gap: 32px;
     margin-right: 128px;
 }
 
@@ -36,6 +38,105 @@ body {
     margin-right: auto;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding: 128px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    color: white;
+    padding: 6px 20px;
+    border: 0;
+}
+
+.hero-left>* {
+    margin: 4px;
+}
+
+.fake-image {
+    padding: 64px;
+    background-color: gray;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.row-cards {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.box {
+    flex: 0 0 auto;
+    padding: 32px;
+    border: 4px solid #3882f6;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 256px;
+    width: 128px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 32px 128px;
+    margin: 64px;
+    gap: 128px;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    padding: 6px 20px;
+}
+
+.call-to-action-text>* {
+    margin: 0;
+}
+
 .quote {
     background-color: #E5E7EB;
+    padding: 36px 128px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    margin: 0;
+}
+
+.rounded-corners {
+    border-radius: 5px;
 }
